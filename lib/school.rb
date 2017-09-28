@@ -30,8 +30,7 @@ class School
 
   def sort
     @roster.each do |grade, students|
-      students = students.sort do |a, b|
-        a[0] <=> b[0]
+      students = students.sort!
       end
     end
   end
