@@ -1,6 +1,6 @@
 # code here!
 class School
-  def initialized(roster)
+  def initialized(school_name)
     new = []
   end
 end
