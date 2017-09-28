@@ -14,4 +14,4 @@ class School
   end
 end
 
-dog = school.new("Dog")
+dog = School.new("Dog")
