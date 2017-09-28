@@ -12,3 +12,5 @@ class School
     @roster[name] = grade
   end
 end
+
+dog = school.new("Dog")
