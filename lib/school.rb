@@ -5,18 +5,14 @@ class School
   end
 
   def roster
-    roster = {}
+    @roster = {}
   end
 
-  def add_student(grade, name)
-    roster = self.roster
-    roster[grade] = name
-    roster[grade] << name
-    self.roster = roster
+  def add_student(name, grade)
+    
   end
 end
 
 dog = School.new("Dog")
 
 dog.roster
-
