@@ -31,11 +31,8 @@ class School
   def sort
     @roster.each do |grade, students|
       students = students.sort do |a, b|
-        a <=> begin
-          
-        rescue ExceptionName
-          
-        end
+        a <=> b
+      end
     end
   end
 end
