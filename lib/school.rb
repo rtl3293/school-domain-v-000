@@ -23,3 +23,6 @@ end
 dog = School.new("Dog")
 
 dog.roster
+
+dog.add_student("Ryan", 10)
+dog.add_student("John", 10)
