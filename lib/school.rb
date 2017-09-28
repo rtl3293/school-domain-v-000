@@ -12,10 +12,11 @@ class School
     roster = self.roster
     roster[grade] = name
     roster[grade] << name
+    self.roster = roster
   end
 end
 
 dog = School.new("Dog")
 
 dog.roster
-dog.add_student(10, "Ryan")
+
