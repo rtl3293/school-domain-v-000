@@ -30,7 +30,7 @@ class School
 
   def sort
     @roster. do |grade, students|
-      students= students.sort
+      students = students.sort
     end
   end
 end
