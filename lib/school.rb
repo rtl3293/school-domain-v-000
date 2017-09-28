@@ -1,6 +1,9 @@
 # code here!
 class School
   def initialized(school_name)
-    new = []
+    @school = school_name
+    roster = []
   end
+
+  
 end
