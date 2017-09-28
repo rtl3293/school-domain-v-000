@@ -15,3 +15,6 @@ class School
 end
 
 dog = School.new("Dog")
+
+dog.roster
+dog.add_student(10, "Ryan")
