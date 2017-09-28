@@ -30,7 +30,12 @@ class School
 
   def sort
     @roster.each do |grade, students|
-      students = students.sort
+      students = students.sort do |a, b|
+        a <=> begin
+          
+        rescue ExceptionName
+          
+        end
     end
   end
 end
